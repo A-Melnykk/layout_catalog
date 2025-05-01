@@ -6,22 +6,114 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Catalog</title>
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <title>Каталог</title>
     <link
       rel="stylesheet"
       href="styles/index.scss"
     />
   </head>
-
   <body>
-    <h1>Catalog</h1>
+    <div class="page">
+      <header class="header">
+        <a
+          href="/"
+          class="header__logo"
+        >
+          <div class="header__logo-line">MO</div>
+          <div class="header__logo-line">YO</div>
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a
+                href="#"
+                class="header__nav-link is-active"
+              >
+                APPLE
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a
+                href="#"
+                class="header__nav-link"
+              >
+                SAMSUNG
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a
+                href="#"
+                class="header__nav-link"
+              >
+                SMARTPHONES
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a
+                href="#"
+                class="header__nav-link"
+                data-qa="nav-hover"
+              >
+                LAPTOPS & COMPUTERS
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a
+                href="#"
+                class="header__nav-link"
+              >
+                GADGETS
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="catalog">
+        <div
+          class="card"
+          data-qa="card"
+        >
+          <img
+            src="./images/product0.png"
+            alt="Зображення продукту"
+            class="card__image"
+          />
+          <h3 class="card__title">APPLE A1419 iMac 27" Retina 5K</h3>
+          <p class="card__code">Код продукту: 193454</p>
+          <div class="card__rating">
+            <span class="card__stars">★★★★★</span>
+            <span class="card__reviews">Відгуків: 5</span>
+          </div>
+          <p class="card__price">$2,199</p>
+          <a
+            href="#"
+            class="card__button"
+            data-qa="card-hover"
+          >
+            КУПИТИ
+          </a>
+        </div>
+        <div class="card">
+          <img
+            src="./images/product1.png"
+            alt="Зображення продукту"
+            class="card__image"
+          />
+          <h3 class="card__title">APPLE A1419 iMac 27" Retina 5K</h3>
+          <p class="card__code">Код продукту: 193454</p>
+          <div class="card__rating">
+            <span class="card__stars">★★★★★</span>
+            <span class="card__reviews">Відгуків: 5</span>
+          </div>
+          <p class="card__price">$2,199</p>
+          <a
+            href="#"
+            class="card__button"
+          >
+            КУПИТИ
+          </a>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
