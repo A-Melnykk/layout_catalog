@@ -1,69 +1,179 @@
 <!doctype html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Каталог</title>
+    <title>Catalog Page</title>
     <link
       rel="stylesheet"
-      href="./styles/index.scss"
+      href="styles/index.scss"
     />
   </head>
   <body>
-    <header class="header">
+    <header
+      class="header"
+      data-qa="header"
+    >
       <nav class="nav">
-        <a
-          href="#"
-          class="nav__logo"
+        <ul
+          class="nav__list"
+          data-qa="nav-list"
         >
-          Каталог
-        </a>
-        <ul class="nav__list">
           <li>
             <a
-              href="#"
+              href="#section-1"
               class="nav__link is-active"
+              data-qa="nav-link-apple"
             >
-              Головна
+              Apple
             </a>
           </li>
           <li>
             <a
-              href="#"
+              href="#section-2"
               class="nav__link"
+              data-qa="nav-link-samsung"
             >
-              Контакти
+              Samsung
+            </a>
+          </li>
+          <li>
+            <a
+              href="#section-3"
+              class="nav__link"
+              data-qa="nav-link-phones"
+            >
+              Phones
+            </a>
+          </li>
+          <li>
+            <a
+              href="#section-4"
+              class="nav__link"
+              data-qa="nav-link-laptops"
+            >
+              Laptops & Computers
             </a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main class="catalog">
-      <article class="card">
+    <main class="main-content">
+      <section
+        class="section"
+        id="section-1"
+        data-qa="section-1"
+      >
         <img
-          class="card__image"
-          src="./images/imac.jpeg"
-          alt="iMac"
+          src="images/imac.jpeg"
+          alt="Image for Section 1"
+          class="section__image"
         />
+        <h2>Section 1</h2>
+        <p>Content for section 1.</p>
+      </section>
 
-        <h2 class="card__title">Apple IMac 24</h2>
-        <p class="card__code">код: 213442345</p>
-        <div class="card__rating">
-          <span>★ 4.7</span>
-          <span class="card__reviews">42 відгуки</span>
-        </div>
-        <p class="card__price">42 999 ₴</p>
-        <a
-          href="#"
-          class="card__button"
-        >
-          Додати до кошика
-        </a>
-      </article>
+      <section
+        class="section"
+        id="section-2"
+        data-qa="section-2"
+      >
+        <img
+          src="images/imac.jpeg"
+          alt="Image for Section 2"
+          class="section__image"
+        />
+        <h2>Section 2</h2>
+        <p>Content for section 2.</p>
+      </section>
+
+      <section
+        class="section"
+        id="section-3"
+        data-qa="section-3"
+      >
+        <img
+          src="images/imac.jpeg"
+          alt="Image for Section 3"
+          class="section__image"
+        />
+        <h2>Section 3</h2>
+        <p>Content for section 3.</p>
+      </section>
+
+      <section
+        class="section"
+        id="section-4"
+        data-qa="section-4"
+      >
+        <img
+          src="images/imac.jpeg"
+          alt="Image for Section 4"
+          class="section__image"
+        />
+        <h2>Section 4</h2>
+        <p>Content for section 4.</p>
+      </section>
+
+      <section
+        class="section"
+        id="section-5"
+        data-qa="section-5"
+      >
+        <img
+          src="images/imac.jpeg"
+          alt="Image for Section 5"
+          class="section__image"
+        />
+        <h2>Section 5</h2>
+        <p>Content for section 5.</p>
+      </section>
+
+      <section
+        class="section"
+        id="section-6"
+        data-qa="section-6"
+      >
+        <img
+          src="images/imac.jpeg"
+          alt="Image for Section 6"
+          class="section__image"
+        />
+        <h2>Section 6</h2>
+        <p>Content for section 6.</p>
+      </section>
+
+      <section
+        class="section"
+        id="section-7"
+        data-qa="section-7"
+      >
+        <img
+          src="images/imac.jpeg"
+          alt="Image for Section 7"
+          class="section__image"
+        />
+        <h2>Section 7</h2>
+        <p>Content for section 7.</p>
+      </section>
+
+      <section
+        class="section"
+        id="section-8"
+        data-qa="section-8"
+      >
+        <img
+          src="images/imac.jpeg"
+          alt="Image for Section 8"
+          class="section__image"
+        />
+        <h2>Section 8</h2>
+        <p>Content for section 8.</p>
+      </section>
     </main>
   </body>
 </html>
