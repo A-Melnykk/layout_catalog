@@ -131,7 +131,7 @@ body {
 }
 
 .stars__star {
-  background-image: url(star.822d561e.svg);
+  background-image: url('../images/star.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -147,7 +147,7 @@ body {
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url(star-active.edda4c43.svg);
+  background-image: url('../images/star-active.svg');
 }
 
 .card__reviews {
